@@ -1,5 +1,5 @@
 # WEBTECH1-Zad.2
-WEBTECH1 HTML+CSS
+Class Web Technologies HTML+CSS
 
 Zadanie cvičenia:
 Vytvorte validné web stránky (HTML 5), na ktorých zobrazíte "klikací obrázok".
