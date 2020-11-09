@@ -1,0 +1,108 @@
+.wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+.wrapper img{
+    display: block;
+    z-index: -1;
+}
+.wrapper div{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+body{
+    background-color: black;
+}
+
+.hero .tooltiptext{
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    top: -5px;
+    right: 105%;
+    z-index: 3;
+}
+.tooltiptext img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#wrench{
+    height: 20%;
+    width: 20%;
+}
+#hamer{
+    height: 15%;
+    width: 15%;
+}
+#tube{
+    height: 15%;
+    width: 15%;
+}
+#widow{
+    height: 25%;
+    width: 25%;
+}
+#shield{
+    height: 25%;
+    width: 25%;
+}
+.hero:hover .tooltiptext {
+    visibility: visible;
+}
+
+.circleBase{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+#captain{
+    top:38%;
+    left: 46%;
+    width: 130px;
+    height: 130px;
+}
+#hulk{
+    top: 28%;
+    left: 42%;
+    width: 90px;
+    height: 90px;
+}
+#iron_man{
+    top: 7%;
+    left: 28%;
+    width: 250px;
+    height: 250px;
+}
+#thor{
+    top:17%;
+    left: 56%;
+    width: 130px;
+    height: 130px;
+}
+#black_widow{
+    top:35%;
+    left: 25%;
+    width: 120px;
+    height: 120px;
+}
+
+#zdroj{
+    float: left;
+}
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: fit-content;            /* Footer height */
+}
